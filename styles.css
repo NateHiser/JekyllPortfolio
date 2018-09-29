@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
 body {
-  width= 100%;
+  width: 100%;
   font-family: raleway;
   font-size:62.5%;
   background-color: white;
@@ -15,19 +15,11 @@ h1 {
 }
 
 header {
-  height: 30px;
-  max-width: 1200px;
-  padding: 10px;
-  display: flex;
-  justify-content:space-around;
-  align-items:flex-end;
-  margin:0 auto;
+  width:100%;
+  background-color: white;
+  position:fixed;
+  top: 0;
 }
-
-html {
-  background-color: grey;
-}
-
 img {
     flex-grow: 1;
 }
@@ -36,6 +28,17 @@ li {
   list-style: none;
   font-size: 1.5em;
   margin-left: 100px;
+}
+
+.navbar{
+
+  height: 30px;
+  max-width: 1200px;
+  padding: 10px;
+  display: flex;
+  justify-content:space-around;
+  align-items:flex-end;
+  margin:0 auto;
 }
 
 ul {
