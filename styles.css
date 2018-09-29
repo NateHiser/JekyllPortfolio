@@ -10,10 +10,20 @@ body {
   max-width: 1200px;
 }
 
+.border{
+  margin-top:15px;
+    border-bottom: 2px solid darkgrey;
+    border-top: 2px solid darkgrey;
+}
+
 footer{
   margin: 0 200px;
   display:flex;
   justify-content: space-between;
+}
+
+.footerNotes{
+  text-align: center;
 }
 
 h1 {
