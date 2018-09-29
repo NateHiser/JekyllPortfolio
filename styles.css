@@ -21,6 +21,7 @@ header {
   top: 0;
 }
 img {
+  background-color: none;
     flex-grow: 1;
 }
 
