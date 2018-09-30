@@ -1,0 +1,9 @@
+<div class="projList">
+
+  {% for post in site.posts %}
+    <img src="{{ post.photo }}" >
+    <h2> {{ post.title }} </h2>
+    <h3> {{ post.category }} </h3>
+  {%endfor %}
+
+</div>

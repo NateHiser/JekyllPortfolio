@@ -11,7 +11,7 @@ body {
 }
 
 .border{
-  margin-top:15px;
+    margin-top:15px;
     border-bottom: 2px solid darkgrey;
     border-top: 2px solid darkgrey;
 }
