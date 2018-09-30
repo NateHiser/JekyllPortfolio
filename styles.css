@@ -19,6 +19,7 @@ body {
 
 footer{
   margin: 0 200px;
+  padding-bottom: 100px;
   display:flex;
   justify-content: space-between;
 }
@@ -55,8 +56,6 @@ header .logo {
 
 .intro {
   background-image: url("images/placeholder.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
   position: relative;
@@ -81,19 +80,43 @@ header .logo {
   width:30%;
 }
 
+.hero img {
+  clip-path: polygon(0 8%, 100% 0, 100% 92%, 0 100%);
+}
+
+.hero {
+  position: relative;
+
+}
+.hero  img {
+    width: 100%;
+  }
+
+.hero  figcaption {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+
 h2{
+  padding-left: 60px;
   font-weight:700;
   font-size: 1.8em;
   margin-bottom:5px;
 }
 
 h3{
+  padding-left: 60px;
   font-weight:300;
   font-size: 1.2em;
   margin-top:5px;
 }
 
-.introType p{
+.hero p{
+  width:400px;
+  padding-left: 60px;
   font-size: 1.2em;
 }
 
@@ -105,7 +128,6 @@ li {
 }
 
 .navbar{
-
   height: 30px;
   padding: 10px;
   display: flex;
