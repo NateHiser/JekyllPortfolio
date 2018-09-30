@@ -8,6 +8,7 @@ body {
   background-color: white;
   margin:0 auto;
   max-width: 1200px;
+  line-height: 2;
 }
 
 .border{
@@ -39,6 +40,7 @@ header {
   top: 0;
   max-width: 1200px;
   padding-top:10px;
+  z-index: 1;
 }
 
 header img {
@@ -49,6 +51,50 @@ header img {
 header .logo {
   padding-top: 15px;
     margin:0 auto;
+}
+
+.intro {
+  background-image: url("images/placeholder.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+}
+.intro:after {
+  background: inherit;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 150px;
+  left: 0;
+  right: 0;
+  transform: skewY(-2deg);
+  transform-origin: 100%;
+  margin-bottom: 200px;
+  z-index: -1;
+}
+
+.introType{
+  padding-left: 20px;
+  padding-top: 20px;
+  width:30%;
+}
+
+h2{
+  font-weight:700;
+  font-size: 1.8em;
+  margin-bottom:5px;
+}
+
+h3{
+  font-weight:300;
+  font-size: 1.2em;
+  margin-top:5px;
+}
+
+.introType p{
+  font-size: 1.2em;
 }
 
 li {
