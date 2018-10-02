@@ -60,39 +60,20 @@ header .logo {
   color: #fff;
   position: relative;
 }
-.intro:after {
-  background: inherit;
-  bottom: 0;
-  content: '';
-  display: block;
-  height: 150px;
-  left: 0;
-  right: 0;
-  transform: skewY(-2deg);
-  transform-origin: 100%;
-  margin-bottom: 200px;
-  z-index: -1;
-}
 
-.introType{
-  padding-left: 20px;
-  padding-top: 20px;
-  width:30%;
-}
-
-.hero img {
+.about img {
   clip-path: polygon(0 8%, 100% 0, 100% 92%, 0 100%);
 }
 
-.hero {
+.about {
   position: relative;
 
 }
-.hero  img {
+.about  img {
     width: 100%;
   }
 
-.hero  figcaption {
+.about  figcaption {
     left: 50%;
     position: absolute;
     top: 50%;
@@ -114,7 +95,7 @@ h3{
   margin-top:5px;
 }
 
-.hero p{
+.about p{
   width:400px;
   padding-left: 60px;
   font-size: 1.2em;
@@ -134,6 +115,29 @@ li {
   justify-content:space-around;
   align-items:flex-end;
   margin:0 auto;
+}
+
+.projList{
+  padding-top:50px;
+  display:flex;
+  width:100%;
+  margin: 0 auto;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.projprev{
+  width:30%;
+  justify-content: center;
+  text-align: center;
+}
+
+.projprev img{
+  width:75%;
+}
+
+.projprev h4{
+
 }
 
 ul {
