@@ -2,7 +2,16 @@
 
 {{content}}
 
+<div class="project">
+  <img src="{{ page.Image1 }}" class="image1" >
+  <h2>{{page.title}}</h2>
+  <h3>{{page.category}}</h3>
 
-  <img src="{{ post.Image1 }}" class="image1" >
+  <img src="{{ page.Image2 }}" class="image2" >
+  <img src="{{ page.Image3 }}" class="image3" >
+  <img src="{{ page.Image4 }}" class="image4" >
+
+  <p>{{page.Description | markdownify}}</p>
+</div>
 
 {% include footer.html %}
