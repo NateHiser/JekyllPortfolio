@@ -1,7 +1,7 @@
 ---
 layout: present
-title: Clear2
+title: Clear
 photo: images/logo.jpg
 category: Graphic Design
-permalink: /graphicDesign/
+Image1: ../../../../images/contact.png
 ---
