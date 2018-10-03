@@ -18,8 +18,8 @@ body {
 }
 
 footer{
-  margin: 0 200px;
-  padding-bottom: 100px;
+  margin: 80px 200px;
+  padding-bottom: 50px;
   display:flex;
   justify-content: space-between;
 }
@@ -28,10 +28,34 @@ footer{
   text-align: center;
 }
 
+.footerNotes img{
+  clip-path: circle(50.1% at 50% 50%);
+}
+
 h1 {
   font-size: 1.3em;
   font-weight: 300;
   margin:0;
+}
+
+h2{
+padding-left: 60px;
+font-weight:700;
+font-size: 1.8em;
+margin-bottom:5px;
+}
+
+h3{
+padding-left: 60px;
+font-weight:300;
+font-size: 1.2em;
+margin-top:5px;
+}
+
+h4{
+font-weight:700;
+font-size: 1.8em;
+margin-bottom: 0;
 }
 
 header {
@@ -44,22 +68,11 @@ header {
   z-index: 1;
 }
 
-header img {
+header .logo img{
   padding-top: 15px;
-  width:45px;
+  margin:0 auto;
 }
 
-header .logo {
-  padding-top: 15px;
-    margin:0 auto;
-}
-
-.intro {
-  background-image: url("images/placeholder.jpg");
-  background-size: cover;
-  color: #fff;
-  position: relative;
-}
 
 .about img {
   clip-path: polygon(0 8%, 100% 0, 100% 92%, 0 100%);
@@ -80,20 +93,6 @@ header .logo {
     transform: translate(-50%, -50%);
     width: 100%;
   }
-
-h2{
-  padding-left: 60px;
-  font-weight:700;
-  font-size: 1.8em;
-  margin-bottom:5px;
-}
-
-h3{
-  padding-left: 60px;
-  font-weight:300;
-  font-size: 1.2em;
-  margin-top:5px;
-}
 
 .about p{
   width:400px;
@@ -134,10 +133,7 @@ li {
 
 .projprev img{
   width:75%;
-}
-
-.projprev h4{
-
+  clip-path: circle(50.1% at 50% 50%);
 }
 
 ul {

@@ -2,9 +2,11 @@
 
   {% for post in site.posts %}
     <div class="projprev">
-      <img src="{{ post.photo }}" >
-      <h4> {{ post.title }} </h4>
-      <h5> {{ post.category }} </h5>
+      <a href= "{{ post.URL }}" >
+        <img src="{{ post.photo }}" >
+        <h4> {{ post.title }} </h4>
+        <p> {{ post.category }} </p>
+      </a>
     </div>
   {%endfor %}
 
