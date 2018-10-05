@@ -127,6 +127,11 @@ li {
   margin-top: 50px;
 }
 
+.projDetails img{
+  max-width: 30%;
+  align-self: center;
+}
+
 .projList{
   padding-top:50px;
   display:flex;
@@ -143,7 +148,6 @@ li {
 }
 
 .projprev img{
-  width:75%;
   clip-path: circle(50.1% at 50% 50%);
 }
 
