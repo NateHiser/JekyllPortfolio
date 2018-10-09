@@ -148,7 +148,10 @@ li {
 }
 
 .projprev img{
-  clip-path: circle(50.1% at 50% 50%);
+  width:80%;
+  background-image:url(images/seth.jpg);
+  clip-path: circle(34% at 50% 50%);
+  image-orientation: from-image;
 }
 
 .project{

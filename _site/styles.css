@@ -110,6 +110,11 @@ li {
   font-size: 1.6em;
   font-weight: 500;
   margin-left: 75px;
+  padding:5px 15px;
+}
+
+li:hover{
+  background-color:#c1c9cd;
 }
 
 .navbar{
@@ -147,9 +152,17 @@ li {
   text-align: center;
 }
 
-.projprev img{
-  clip-path: circle(50.1% at 50% 50%);
+.projprev:first-child:hover{
+  color:#CCCCCC;
 }
+
+.projprev img{
+  width:80%;
+  background-image:url(images/seth.jpg);
+  clip-path: circle(34% at 50% 50%);
+  image-orientation: from-image;
+}
+
 
 .project{
   width:80%;
