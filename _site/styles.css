@@ -5,6 +5,30 @@ a{
   color:black;
 }
 
+.about {
+  position: relative;
+}
+
+.about  figcaption {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+
+.about img {
+  clip-path: polygon(0 8%, 100% 0, 100% 92%, 0 100%);
+      width: 100%;
+}
+
+.about p{
+  width:400px;
+  padding-left: 60px;
+  font-size: 1.2em;
+}
+
+
 body {
   padding-top:60px;
   width: 100%;
@@ -19,17 +43,18 @@ body {
 .border{
     margin-top:15px;
     border-bottom: 2px solid darkgrey;
-    border-top: 2px solid darkgrey;
 }
 
 footer{
+border-top: 2px solid darkgrey;
   margin: 80px 200px;
   padding-bottom: 50px;
   display:flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .footerNotes{
+  margin-top: 15px;
   text-align: center;
 }
 
@@ -78,43 +103,11 @@ header .logo img{
   margin:0 auto;
 }
 
-
-.about img {
-  clip-path: polygon(0 8%, 100% 0, 100% 92%, 0 100%);
-}
-
-.about {
-  position: relative;
-
-}
-.about  img {
-    width: 100%;
-  }
-
-.about  figcaption {
-    left: 50%;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-  }
-
-.about p{
-  width:400px;
-  padding-left: 60px;
-  font-size: 1.2em;
-}
-
 li {
   list-style: none;
   font-size: 1.6em;
   font-weight: 500;
   margin-left: 75px;
-  padding:5px 15px;
-}
-
-li:hover{
-  background-color:#c1c9cd;
 }
 
 .navbar{
@@ -124,6 +117,18 @@ li:hover{
   justify-content:space-around;
   align-items:flex-end;
   margin:0 auto;
+}
+
+.project{
+  width:80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.project .image1{
+  width: 80%;
+  align-content: center;
+  clip-path: circle(34% at 49% 50%);
 }
 
 .projDetails{
@@ -152,28 +157,11 @@ li:hover{
   text-align: center;
 }
 
-.projprev:first-child:hover{
-  color:#CCCCCC;
-}
-
 .projprev img{
   width:80%;
   background-image:url(images/seth.jpg);
   clip-path: circle(34% at 50% 50%);
   image-orientation: from-image;
-}
-
-
-.project{
-  width:80%;
-  margin: 0 auto;
-  margin-top: 50px;
-}
-
-.project .image1{
-  width: 80%;
-  align-content: center;
-  clip-path: circle(50.1% at 50% 50%);
 }
 
 .title{
