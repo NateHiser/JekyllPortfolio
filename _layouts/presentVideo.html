@@ -1,0 +1,23 @@
+{% include header.html %}
+
+{{content}}
+
+<div class="project">
+  <div class="title">
+    <img src="{{ page.Image1 }}" class="image1" >
+    <h2>{{page.title}}</h2>
+    <h3>{{page.category}}</h3>
+  </div>
+
+  <div class="projDetails">
+    <video width="320" height="240" autoplay>
+      <source src="{{page.video}}" type="video/mp4">
+    </video>
+    <img src ="{{page.snapshot1}}" class="snapshot1"
+  </div>
+
+  <p>{{page.Description | markdownify}}</p>
+
+</div>
+
+{% include footer.html %}
