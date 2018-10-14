@@ -46,7 +46,7 @@ body {
 }
 
 footer{
-border-top: 2px solid darkgrey;
+  border-top: 2px solid darkgrey;
   margin: 80px 200px;
   padding-bottom: 50px;
   display:flex;
@@ -59,6 +59,7 @@ border-top: 2px solid darkgrey;
 }
 
 .footerNotes img{
+  width:150px;
   clip-path: circle(50.1% at 50% 50%);
 }
 
@@ -125,6 +126,11 @@ li {
   margin-top: 50px;
 }
 
+.project p{
+  margin-top: 50px;
+  width: 75%;
+}
+
 .project .image1{
   width: 80%;
   align-content: center;
@@ -152,16 +158,22 @@ li {
 }
 
 .projprev{
+  margin-top:30px;
   width:30%;
   justify-content: center;
   text-align: center;
 }
 
 .projprev img{
-  width:80%;
+  width: 100%;
+  max-height: 200px;
   background-image:url(images/seth.jpg);
   clip-path: circle(34% at 50% 50%);
-  image-orientation: from-image;
+}
+
+.projVideo{
+  margin-left: 25%;
+  justify-content: space-around;
 }
 
 .title{
