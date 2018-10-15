@@ -6,5 +6,5 @@ Image1: ../../../../images/studentDesign.jpg
 Image2: ../../../../images/studentDesign2.jpg
 Image3: ../../../../images/studentDesign3.jpg
 Image4: ../../../../images/studentDesign4.jpg
-Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec enim convallis, iaculis nunc quis, tristique sapien. Proin ut arcu quis massa suscipit dictum. Proin accumsan orci ut posuere pharetra. Etiam et lectus in mi vulputate sollicitudin nec eget augue. Ut accumsan, orci ac laoreet fermentum, dui nibh consectetur orci, nec finibus leo arcu nec risus. Donec facilisis eros sed auctor ultricies. Nam sagittis elementum mi, quis efficitur lorem volutpat quis. Morbi sagittis bibendum velit, id aliquam magna. Sed luctus id elit non elementum. Etiam posuere fringilla ligula, eu tincidunt lectus commodo in. Nunc id volutpat nibh. Quisque at risus id odio venenatis sodales nec nec felis. Vivamus ut aliquet massa. Sed id tempor lacus, non sollicitudin ligula. Duis consequat efficitur egestas. Morbi arcu urna, iaculis vel eros a, molestie sodales ex.
+Description: For a student exhibition I designed an advertisement campaign. I created layouts for a poster, post card, magazine ad, and a web banner. Each were created to reach a wider audience. I followed a lot of the design style of Bauhaus.
 ---
