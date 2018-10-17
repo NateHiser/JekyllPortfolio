@@ -111,6 +111,10 @@ li {
   margin-left: 75px;
 }
 
+.logo {
+  width:45px;
+}
+
 .navbar{
   height: 30px;
   padding: 10px;
