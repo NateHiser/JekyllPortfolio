@@ -1,5 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
+a{
+  text-decoration:none;
+  color:black;
+}
+
+.about {
+  position: relative;
+}
+
+.about  figcaption {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+
+.about img {
+  clip-path: polygon(0 8%, 100% 0, 100% 92%, 0 100%);
+      width: 100%;
+}
+
+.about p{
+  width:400px;
+  padding-left: 60px;
+  font-size: 1.2em;
+  color:white;
+}
+
+
 body {
   padding-top:60px;
   width: 100%;
@@ -8,28 +38,58 @@ body {
   background-color: white;
   margin:0 auto;
   max-width: 1200px;
+  line-height: 2;
 }
 
 .border{
-  margin-top:15px;
+    margin-top:15px;
     border-bottom: 2px solid darkgrey;
-    border-top: 2px solid darkgrey;
 }
 
 footer{
-  margin: 0 200px;
+  border-top: 2px solid darkgrey;
+  margin: 80px 200px;
+  padding-bottom: 50px;
   display:flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .footerNotes{
+  margin-top: 15px;
   text-align: center;
+}
+
+.footerNotes img{
+  width:150px;
+  clip-path: circle(50.1% at 50% 50%);
 }
 
 h1 {
   font-size: 1.3em;
   font-weight: 300;
   margin:0;
+}
+
+h2{
+padding-left: 60px;
+font-weight:700;
+font-size: 1.8em;
+margin-bottom:5px;
+color:White;
+}
+
+h3{
+padding-left: 60px;
+font-weight:300;
+font-size: 1.2em;
+margin-top:5px;
+color:White;
+}
+
+h4{
+font-weight:700;
+font-size: 1.8em;
+margin-bottom: 0;
 }
 
 header {
@@ -39,16 +99,12 @@ header {
   top: 0;
   max-width: 1200px;
   padding-top:10px;
+  z-index: 1;
 }
 
-header img {
+header .logo img{
   padding-top: 15px;
-  width:45px;
-}
-
-header .logo {
-  padding-top: 15px;
-    margin:0 auto;
+  margin:0 auto;
 }
 
 li {
@@ -58,14 +114,84 @@ li {
   margin-left: 75px;
 }
 
-.navbar{
+.logo {
+  width:45px;
+}
 
+.navbar{
   height: 30px;
   padding: 10px;
   display: flex;
   justify-content:space-around;
   align-items:flex-end;
   margin:0 auto;
+}
+
+.project{
+  width:80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.project p{
+  margin-top: 50px;
+  width: 75%;
+}
+
+.project .image1{
+  width: 80%;
+  align-content: center;
+  clip-path: circle(34% at 49% 50%);
+}
+
+.projDetails{
+  display:flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.projDetails img{
+  max-width: 30%;
+  align-self: center;
+}
+
+.projList{
+  padding-top:50px;
+  display:flex;
+  width:100%;
+  margin: 0 auto;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.projprev{
+  margin-top:30px;
+  width:30%;
+  justify-content: center;
+  text-align: center;
+}
+
+.projprev img{
+  width: 100%;
+  max-height: 200px;
+  background-image:url(images/seth.jpg);
+  clip-path: circle(34% at 50% 50%);
+}
+
+.projVideo{
+  margin-left: 25%;
+  justify-content: space-around;
+}
+
+.title{
+  text-align: center;
+  width:50%;
+  margin: 0 auto;
+  padding-left: 40px;
+}
+
+.title h2, .title h3{
+  padding: 0;
 }
 
 ul {
